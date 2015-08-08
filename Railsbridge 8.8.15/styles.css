@@ -1,0 +1,43 @@
+body {
+	background-color: #FF9966;
+}
+
+p {
+	color: #CC0000
+}
+
+h1 {
+	font-family: "Helvetica neue", serif;
+	color: purple;
+	font-weight: heavier;
+}
+
+.yellow-background {
+	background-color: #ffff66;
+	border-style: solid;
+}
+
+.dragons {
+	background-color: #99FFFF;
+	border: 5px solid #33cc99
+}
+
+.image {
+	max-width: 75%;
+	max-height: 75%;
+	display: inline-block;
+}
+
+.image-container {
+	display: inline-block;
+}
+
+#main-content{
+	padding: 30px 40px 40px 30px;
+	margin: 30px 40px 40px 30px;
+	border: double 30px #99ffff;
+}
+
+::selection {
+	background-color: #33ffff;
+	} 
